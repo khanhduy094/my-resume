@@ -1,0 +1,51 @@
+.section {
+    .project {
+      cursor: pointer;
+      margin-right: 15px;
+      .project__img {
+        position: relative;
+        img {
+          max-width: 100%;
+          border-radius: 5px;
+        }
+        .over-play {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.3);
+          opacity: 0;
+          transition: all 0.5s linear;
+          border-radius: 5px;
+        }
+        .learn-more{
+            width: 60px;
+            height: 60px;
+            border: 3px solid white;
+            border-radius: 50%;
+            background-color: transparent;
+            text-align: center;
+            line-height: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transition: all 0.5s linear;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+        }
+        &-icon{
+            color: white;
+        }
+      }
+      &:hover {
+        .over-play {
+          opacity: 1;
+        }
+        .learn-more{
+            opacity: 1;
+        }
+      }
+    }
+  }
+  

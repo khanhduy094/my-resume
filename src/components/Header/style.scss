@@ -1,0 +1,49 @@
+.header{
+    margin-bottom: 30px !important;
+    background-color: white !important;
+    padding: 0 22px 0 0 !important;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 92px 0 rgba(0,0,0,0.07) !important;
+    
+    &_link{
+        font-weight: 500;
+        color: darkslategray !important;
+        &:hover{
+            color: var(--main-color) !important;
+        }
+        &_active{
+            font-weight: 500;
+            color: var(--main-color) !important;
+        }
+    }
+    &_home{
+        background-color: var(--main-color);
+        padding: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+
+    }
+    &_right{
+        display: flex !important;
+        align-items: center !important;
+        a{
+            .MuiSvgIcon-root{
+                font-size: 16px !important;
+                margin-right: 14px;
+                color: black;
+                transition: all 0.2s linear;
+                &:hover{
+                    font-size: 24px !important;
+                }
+            }
+        }
+    }
+    &_left{
+        margin-right: auto;
+    }
+
+
+}

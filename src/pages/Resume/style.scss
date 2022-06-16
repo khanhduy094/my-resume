@@ -1,0 +1,49 @@
+// about
+.section_content {
+    color: darkslategray;
+    font-size: 18px;
+    line-height: 30px !important;
+    white-space: pre-line;
+  }
+  .section {
+    .slick_container {
+      max-width: 700px;
+      margin: 0 auto;
+      .slick_item {
+        width: 100%;
+      }
+      .slick-slider {
+        .slick_img {
+          // width: 200px;
+          // height: 300px;
+        }
+        .slick-prev:before {
+          color: var(--main-color) !important;
+          font-size: 30px;
+        }
+        .slick-next:before {
+          color: var(--main-color) !important;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  // timeline
+  
+  .resume_timeline {
+    .timeline_content {
+      .timeline_title {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+      }
+      .timeline_date {
+        color: darkslategray;
+      }
+      .timeline_des {
+        color: gray;
+        font-size: small;
+        margin-top: 8px !important;
+      }
+    }
+  }
+  

@@ -1,0 +1,30 @@
+
+.project{
+    &-image{
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+        img{
+            display: inline-block;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &-demo{
+        text-align: center;
+        margin-top: 30px;
+    }
+    &-title{
+        font-weight: 600 !important;
+    }
+    &-comment{
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+        .abc{
+            width: 60%;
+        }
+    }
+
+}
