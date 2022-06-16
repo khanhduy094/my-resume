@@ -7,20 +7,20 @@ function ProjectDetail(props) {
 
     let routeMath= useRouteMatch();
   
-    let dataCFD = resumeData.projects[0];
+    let dataShopee = resumeData.projects[0];
     let dataResume = resumeData.projects[1];
     // console.log(data);
     console.log(routeMath.params.slug);
-    if(routeMath.params.slug === "cfd"){
+    if(routeMath.params.slug === "shopee"){
         return (
             <div className="project">
             <div>
                 <div className="project-image">
-                    <img src={dataCFD.image} alt="abc" />
+                    <img src={dataShopee.image} alt="abc" />
                 </div>
             </div>
             <div className="project-demo" >
-                <CustomButton text={"View Demo"} link={"https://cfd-training.vercel.app"} />
+                <CustomButton text={"View Demo"} link={"https://react-shopee.vercel.app/"} />
             </div>
             <Grid container className="section pb-45 top_30">
                 <Grid item className="section_title mb_30">
@@ -30,23 +30,23 @@ function ProjectDetail(props) {
                 <Grid item xs={12}>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Name</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataCFD.projectInfo.name}</p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataShopee.projectInfo.name}</p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Library</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataCFD.projectInfo.library}</p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataShopee.projectInfo.library}</p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Link</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href={dataCFD.projectInfo.link} rel="noreferrer" target="_blank">https://cfd-training.vercel.app/</a></p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href={dataShopee.projectInfo.link} rel="noreferrer" target="_blank">https://react-shopee.vercel.app/</a></p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Member</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataCFD.projectInfo.member}</p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataShopee.projectInfo.member}</p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Position</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataCFD.projectInfo.position}</p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>{dataShopee.projectInfo.position}</p>
                     </div>
                 </Grid>
 
@@ -62,8 +62,12 @@ function ProjectDetail(props) {
                         <p className="col-9" style={{ wordBreak: "break-word" }}>Sign in, sign up a new account</p>
                     </div>
                     <div className="row mt-2">
-                        <strong className="col-3" style={{ textAlign: "right" }}>Regiser Course</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}>Register the online and offline course</p>
+                        <strong className="col-3" style={{ textAlign: "right" }}>Cart</strong>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>Add to cart, update cart and buy products</p>
+                    </div>
+                    <div className="row mt-2">
+                        <strong className="col-3" style={{ textAlign: "right" }}>Update User</strong>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}>Update user infomation, change user password</p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Responsive</strong>
@@ -88,7 +92,7 @@ function ProjectDetail(props) {
                 </div>
             </div>
             <div className="project-demo" >
-                <CustomButton text={"View Demo"} link={"https://resume-online-three.vercel.app"} />
+                <CustomButton text={"View Demo"} link={"https://my-resume-sand-nu.vercel.app/"} />
             </div>
             <Grid container className="section pb-45 top_30">
                 <Grid item className="section_title mb_30">
@@ -106,7 +110,7 @@ function ProjectDetail(props) {
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Link</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href="https://resume-online-three.vercel.app/">https://resume-online-three.vercel.app/</a></p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href="https://my-resume-sand-nu.vercel.app/">https://my-resume-sand-nu.vercel.app/</a></p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Member</strong>

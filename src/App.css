@@ -1,45 +1,44 @@
-:root{
+:root {
   --main-color: #ffc500;
   --red-color: #ec4646;
   --blue-color: #74c7b8;
   --gray-color: #999b84;
-
 }
-*{
+* {
   box-sizing: border-box;
 }
 /* margin and padding */
-.top_60{
+.top_60 {
   margin-top: 60px !important;
 }
-.top_30{
+.top_30 {
   margin-top: 30px !important;
 }
-.mb_30{
+.mb_30 {
   margin-bottom: 30px !important;
 }
-.pb_45{
+.pb_45 {
   padding: 45px !important;
 }
-.p_30{
+.p_30 {
   padding: 30px !important;
 }
-@media (max-width: 991px){
-  .top_60{
-      margin-top: 30px;
+@media (max-width: 991px) {
+  .top_60 {
+    margin-top: 30px;
   }
 }
-.body_container{
+.body_container {
   max-width: 1220px !important;
 }
 
-.container_shadow{
+.container_shadow {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
 }
 
-.main_content{
+.main_content {
   background-color: white;
   min-height: 100vh;
   border-radius: 6px;
@@ -49,18 +48,18 @@
   padding: 30px;
 }
 
-.section_title{
+.section_title {
   position: relative;
   display: inline-block;
   padding: 0 3px;
 }
-.section_title .section_title-text{
+.section_title .section_title-text {
   font-size: 20px;
   font-weight: 500;
   position: relative;
   margin: 0;
 }
-.section_title span{
+.section_title span {
   position: absolute;
   height: 5px;
   width: 100%;
@@ -69,7 +68,7 @@
   left: 0;
   background-color: var(--main-color);
 }
-.changecolor{
+.changecolor {
   position: relative;
   position: fixed;
   top: 30%;
@@ -80,20 +79,20 @@
   transition: all 0.4s linear;
 
   text-align: center;
-  background-color:  white;
+  background-color: white;
   width: 200px;
   height: 100px;
   display: inline-block;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.2);
 }
-.changecolor.active{
+.changecolor.active {
   left: 0px;
 }
-.changecolor .changecolor_text{
+.changecolor .changecolor_text {
   padding-top: 5px;
   position: relative;
 }
-.changecolor .changecolor_text::before{
+.changecolor .changecolor_text::before {
   content: "";
   width: 180px;
   height: 1px;
@@ -102,7 +101,7 @@
   background-color: rgb(185, 184, 184);
   position: absolute;
 }
-.changecolor .changecolor_setting{
+.changecolor .changecolor_setting {
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -111,15 +110,15 @@
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.2);
   padding: 5px;
 }
-.changecolor .changecolor_setting .MuiSvgIcon-root{
+.changecolor .changecolor_setting .MuiSvgIcon-root {
   opacity: 0.8;
   font-size: 30px;
 }
-.changecolor .changecolor_list{
+.changecolor .changecolor_list {
   justify-content: space-between;
   padding: 10px;
 }
-.changecolor .changecolor_list .changecolor_item{
+.changecolor .changecolor_list .changecolor_item {
   cursor: pointer;
   margin-top: 10px;
   width: 33px;
@@ -134,62 +133,61 @@
 
 /* theme color */
 
-#theme-main{
+#theme-main {
   border-color: var(--main-color) !important;
 }
-#theme-main.active{
+#theme-main.active {
   background-color: var(--main-color) !important;
 }
 
-#theme-red{
+#theme-red {
   border-color: var(--red-color) !important;
 }
-#theme-red.active{
+#theme-red.active {
   background-color: var(--red-color) !important;
 }
 
-#theme-blue{
+#theme-blue {
   border-color: var(--blue-color) !important;
 }
-#theme-blue.active{
+#theme-blue.active {
   background-color: var(--blue-color) !important;
 }
 
-
-#theme-gray{
+#theme-gray {
   border-color: var(--gray-color) !important;
 }
-#theme-gray.active{
+#theme-gray.active {
   background-color: var(--gray-color) !important;
 }
 
 /* set app color page */
 
 /* App theme-red */
-.App.theme-red .body_container .timeline_dot_header  {
+.App.theme-red .body_container .timeline_dot_header {
   background-color: var(--red-color) !important;
 }
-.App.theme-red .body_container .MuiTimelineDot-root  {
+.App.theme-red .body_container .MuiTimelineDot-root {
   border-color: var(--red-color) !important ;
 }
-.App.theme-red .body_container .header .header_home{
+.App.theme-red .body_container .header .header_home {
   background-color: var(--red-color);
 }
-.App.theme-red .body_container .header .header_link:hover{
+.App.theme-red .body_container .header .header_link:hover {
   color: var(--red-color) !important;
 }
-.App.theme-red .body_container .header .header_link_active{
+.App.theme-red .body_container .header .header_link_active {
   color: var(--red-color) !important;
 }
-.App.theme-red .body_container .custom_btn{
+.App.theme-red .body_container .custom_btn {
   background-color: var(--red-color) !important;
   border-color: var(--red-color) !important;
 }
-.App.theme-red .body_container .custom_btn:hover{
-  background-color: white  !important;
+.App.theme-red .body_container .custom_btn:hover {
+  background-color: white !important;
   border-color: var(--red-color) !important;
 }
-.App.theme-red .body_container .custom_btn .btn-text{
+.App.theme-red .body_container .custom_btn .btn-text {
   color: white;
 }
 /* .App.theme-red .body_container .custom_btn .linkProject{
@@ -198,118 +196,117 @@
 .App.theme-red .body_container .custom_btn:hover .linkProject{
   color: var(--red-color) !important;
 } */
-.App.theme-red .body_container .custom_btn:hover .btn-text{
+.App.theme-red .body_container .custom_btn:hover .btn-text {
   color: var(--red-color) !important;
 }
-.App.theme-red .body_container .custom_btn:hover .btn_icon_container{
+.App.theme-red .body_container .custom_btn:hover .btn_icon_container {
   background-color: var(--red-color) !important;
 }
-.App.theme-red .body_container .section .theme_span{
+.App.theme-red .body_container .section .theme_span {
   background-color: var(--red-color) !important;
 }
-.App.theme-red .body_container .hobbies_icon .MuiSvgIcon-root:hover{
+.App.theme-red .body_container .hobbies_icon .MuiSvgIcon-root:hover {
   color: var(--red-color) !important;
 }
-.App.theme-red .body_container .section .slick-prev::before{
+.App.theme-red .body_container .section .slick-prev::before {
   color: var(--red-color) !important;
 }
-.App.theme-red .body_container .section .slick-next::before{
+.App.theme-red .body_container .section .slick-next::before {
   color: var(--red-color) !important;
 }
 /* App theme-blue */
 
-.App.theme-blue .body_container .timeline_dot_header  {
+.App.theme-blue .body_container .timeline_dot_header {
   background-color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .MuiTimelineDot-root  {
+.App.theme-blue .body_container .MuiTimelineDot-root {
   border-color: var(--blue-color) !important ;
 }
-.App.theme-blue .body_container .header .header_home{
+.App.theme-blue .body_container .header .header_home {
   background-color: var(--blue-color);
 }
-.App.theme-blue .body_container .header .header_link:hover{
+.App.theme-blue .body_container .header .header_link:hover {
   color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .header .header_link_active{
+.App.theme-blue .body_container .header .header_link_active {
   color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .custom_btn{
+.App.theme-blue .body_container .custom_btn {
   background-color: var(--blue-color) !important;
   border-color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .custom_btn:hover{
-  background-color: white  !important;
+.App.theme-blue .body_container .custom_btn:hover {
+  background-color: white !important;
   border-color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .custom_btn .btn-text{
+.App.theme-blue .body_container .custom_btn .btn-text {
   color: white;
 }
-.App.theme-blue .body_container .custom_btn:hover .btn-text{
+.App.theme-blue .body_container .custom_btn:hover .btn-text {
   color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .custom_btn:hover .btn_icon_container{
+.App.theme-blue .body_container .custom_btn:hover .btn_icon_container {
   background-color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .section .theme_span{
+.App.theme-blue .body_container .section .theme_span {
   background-color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .hobbies_icon .MuiSvgIcon-root:hover{
+.App.theme-blue .body_container .hobbies_icon .MuiSvgIcon-root:hover {
   color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .section .slick-prev::before{
+.App.theme-blue .body_container .section .slick-prev::before {
   color: var(--blue-color) !important;
 }
-.App.theme-blue .body_container .section .slick-next::before{
+.App.theme-blue .body_container .section .slick-next::before {
   color: var(--blue-color) !important;
 }
 
 /* App theme-gray  */
 
-.App.theme-gray .body_container .timeline_dot_header  {
+.App.theme-gray .body_container .timeline_dot_header {
   background-color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .MuiTimelineDot-root  {
+.App.theme-gray .body_container .MuiTimelineDot-root {
   border-color: var(--gray-color) !important ;
 }
-.App.theme-gray .body_container .header .header_home{
+.App.theme-gray .body_container .header .header_home {
   background-color: var(--gray-color);
 }
-.App.theme-gray .body_container .header .header_link:hover{
+.App.theme-gray .body_container .header .header_link:hover {
   color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .header .header_link_active{
+.App.theme-gray .body_container .header .header_link_active {
   color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .custom_btn{
+.App.theme-gray .body_container .custom_btn {
   background-color: var(--gray-color) !important;
   border-color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .custom_btn:hover{
-  background-color: white  !important;
+.App.theme-gray .body_container .custom_btn:hover {
+  background-color: white !important;
   border-color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .custom_btn .btn-text{
+.App.theme-gray .body_container .custom_btn .btn-text {
   color: white;
 }
-.App.theme-gray .body_container .custom_btn:hover .btn-text{
+.App.theme-gray .body_container .custom_btn:hover .btn-text {
   color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .custom_btn:hover .btn_icon_container{
+.App.theme-gray .body_container .custom_btn:hover .btn_icon_container {
   background-color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .section .theme_span{
+.App.theme-gray .body_container .section .theme_span {
   background-color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .hobbies_icon .MuiSvgIcon-root:hover{
+.App.theme-gray .body_container .hobbies_icon .MuiSvgIcon-root:hover {
   color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .section .slick-prev::before{
+.App.theme-gray .body_container .section .slick-prev::before {
   color: var(--gray-color) !important;
 }
-.App.theme-gray .body_container .section .slick-next::before{
+.App.theme-gray .body_container .section .slick-next::before {
   color: var(--gray-color) !important;
 }
-
 
 .error-text {
   font-size: 13;
@@ -323,4 +320,9 @@
 
 .error-input::placeholder {
   color: red;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

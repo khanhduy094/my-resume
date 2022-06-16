@@ -50,7 +50,7 @@ function App() {
             <Header />
             <div className="main_content container_shadow">
               <Switch>
-                {/* <Route path="/portfolio">
+                <Route path="/portfolio">
                   <Portfolio />
                 </Route>
                 <Route path="/resume">
@@ -61,7 +61,7 @@ function App() {
                 </Route>
                 <Route path="/project/:slug">
                   <ProjectDetail />
-                </Route> */}
+                </Route>
                 
                 <Route path="/">
                   <Home />
