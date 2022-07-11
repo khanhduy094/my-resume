@@ -35,19 +35,14 @@ import TwitterIcon from '@mui/icons-material/Twitter';
     "My name is Duy, I am interested in IT and everything in its orbit. Especially Web Development! I had 6 months to learning and working as an intern. I am looking for a chance to increase skills in Computer Science. I would offer my full commitment, and be a pleasant and friendly addition to your team. I am therefore currently looking for a job as a front-end developer.",
   experience: [
     {
-      title: "Intership - CFD",
+      title: "Intership - CFD Circle",
       date: "9/2021 - 11/2021",
-      description: "Studying and working as an intern at CFD",
+      description: "Studying and working as an intern at CFD Circle",
     },
   ],
   educations: [
     {
-      title: "Su Pham University",
-      date: "2017 - 2020",
-      description: "",
-    },
-    {
-      title: "CFD",
+      title: "CFD Circle",
       date: "9/2021 - 11/2021",
       description: "",
     },
