@@ -1,13 +1,13 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MenuBookIcon from '@mui/icons-material/MenuBook';
-import MusicNoteOutlinedIcon from '@mui/icons-material/MusicNoteOutlined';
-import SportsEsportsOutlinedIcon from '@mui/icons-material/SportsEsportsOutlined';
-import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import MusicNoteOutlinedIcon from "@mui/icons-material/MusicNoteOutlined";
+import SportsEsportsOutlinedIcon from "@mui/icons-material/SportsEsportsOutlined";
+import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
- const resumeData = {
+const resumeData = {
   name: "Nguyễn Khánh Duy",
   title: "Front-end Developer",
   birthday: "9/4/1999",
@@ -70,25 +70,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
     },
   ],
   projects: [
-    // {
-    //   title: "Shoper",
-    //   slug: "shoper",
-    //   image: "/img/shoper.png",
-    //   projectInfo: {
-    //     name: "Shoper",
-    //     library: "React",
-    //     link: "https://cfd-shoper.vercel.app/",
-    //     member: 1,
-    //     position: "Front End Developer",
-    //   },
-    //   projectFunc: {
-    //     auth: "Login, logout and create a new account",
-    //     cart: "Add to cart, increment, decrement or remove product item",
-    //     filter: "Filter product by category,price,rating,...",
-    //     checkout: "ádasd",
-    //     reponsive: "Responsive is suitable for all screen types",
-    //   },
-    // },
     {
       title: "Shopee",
       slug: "shopee",
@@ -105,9 +86,25 @@ import TwitterIcon from '@mui/icons-material/Twitter';
       projectFunc: {
         auth: "Login and Register the account",
         cart: "add to cart, get cart, update cart",
-        search: "Search to find product",
+        search: "Search product",
         changeInfo: "Change user information, password",
-        reponsive: "Responsive is suitable for all screen types",
+      },
+    },
+    {
+      title: "Chat App",
+      slug: "chat-app",
+      image: "/img/chat-app.png",
+      projectInfo: {
+        name: "Shopee Project",
+        library: "React",
+        link: "https://react-chatapp-neon.vercel.app/",
+        member: 1,
+        position: "Front End Developer",
+        technology:
+          "React-Hooks, React-Hook-Form, React-Router-Dom, Redux, Axios",
+      },
+      projectFunc: {
+        
       },
     },
     {
@@ -130,5 +127,157 @@ import TwitterIcon from '@mui/icons-material/Twitter';
   ],
 };
 
+
+
+
+export const projectsData = [
+  {
+    title: "Shopee",
+    slug: "shopee",
+    image1: "/img/shopee-login.png",
+    image2: "/img/react-shopee.png",
+    link: "https://react-shopee.vercel.app/",
+    projectInfo: [
+      {
+        title: "Project Name",
+        content: "Shopee Project",
+      },
+      {
+        title: "Library",
+        content: "React",
+      },
+      {
+        title: "Link demo",
+        content: "https://react-shopee.vercel.app/",
+      },
+      {
+        title: "Member",
+        content: "1",
+      },
+      {
+        title: "Position",
+        content: "Front End Developer",
+      },
+      {
+        title: "Technology",
+        content: "React-Hooks, React-Hook-Form, React-Router-Dom, Redux, Axios",
+      },
+    ],
+
+    projectFunc: [
+      {
+        title: "Auth",
+        content: "Login and register",
+      },
+      {
+        title: "Cart",
+        content: "Add to cart, get cart, update cart, buy product",
+      },
+      {
+        title: "Filters",
+        content: "Filter product buy price, category, star rating, search",
+      },
+      {
+        title: "Update User",
+        content: "Change user information, password",
+      },
+    ],
+  },
+  {
+    title: "Chat App",
+    slug: "chat-app",
+    image1: "/img/chat-app-login.png",
+    image2: "/img/chat-app.png",
+    link: "https://react-chatapp-neon.vercel.app/",
+    projectInfo: [
+      {
+        title: "Project Name",
+        content: "Chat App",
+      },
+      {
+        title: "Library",
+        content: "React",
+      },
+      {
+        title: "Link demo",
+        content: "https://react-chatapp-neon.vercel.app/",
+      },
+      {
+        title: "Member",
+        content: "1",
+      },
+      {
+        title: "Position",
+        content: "Front End Developer",
+      },
+      {
+        title: "Technology",
+        content: "React-Hooks, React-Router-Dom, Context, Styled-Component, Firebase",
+      },
+    ],
+    projectFunc: [
+      {
+        title: "Auth",
+        content: "Login with Google, Facebook",
+      },
+      {
+        title: "Chat",
+        content: "Chat with real time",
+      },
+      {
+        title: "Invite member",
+        content: "Invite member to the chat room",
+      },
+      {
+        title: "Add new room",
+        content: "Add the new chat room",
+      },
+    ],
+  },
+  {
+    title: "Resume Online",
+    slug: "resume",
+    image1: "/img/resume-app.png",
+    image2: "/img/resume-app2.png",
+ 
+    link: "https://my-resume-sand-nu.vercel.app/",
+    projectInfo: [
+      {
+        title: "Project Name",
+        content: "Resume Online",
+      },
+      {
+        title: "Library",
+        content: "React",
+      },
+      {
+        title: "Link demo",
+        content: "https://my-resume-sand-nu.vercel.app/",
+      },
+      {
+        title: "Member",
+        content: "1",
+      },
+      {
+        title: "Position",
+        content: "Front End Developer",
+      },
+      {
+        title: "Technology",
+        content: "HTML, CSS, React-Hook, Material-ui, React-Router-Dom",
+      },
+    ],
+    projectFunc: [
+      {
+        title: "Change Theme",
+        content: "Change theme color in website use css variable",
+      },
+      {
+        title: "Reponsive",
+        content: "Responsive is suitable for all screen types",
+      },
+    ],
+  },
+];
 
 export default resumeData;

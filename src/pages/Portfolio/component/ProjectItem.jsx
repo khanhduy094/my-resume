@@ -5,7 +5,7 @@ import EditIcon from '@mui/icons-material/Edit';
 
 function ProjectItem(props) {
     return (
-        <div className="project col-12 col-sm-6 col-md-4 mb-3 ">
+        <div className="project ">
             <div className="project__img">
                 <Link to={`/project/${props.slug}`}>
                     <img src={props.image} alt="" />

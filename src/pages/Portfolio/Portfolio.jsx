@@ -1,7 +1,9 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
+
 import resumeData from "../../utils/resumeData";
 import ProjectItem from "./component/ProjectItem";
+
 import "./style.scss";
 
 function Portfolio(props) {
@@ -15,11 +17,13 @@ function Portfolio(props) {
           My Projects
         </Typography>
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} spacing={2}>
         <Grid container>
-          {resumeData.projects.map((item, index) => {
-            return <ProjectItem key={index} {...item} />;
-          })}
+          {resumeData.projects.map((item, index) => (
+            <Grid item xs={12} sm={6} md={4}>
+              <ProjectItem key={index} {...item} />
+            </Grid>
+          ))}
           {/* <ProjectItem /> */}
         </Grid>
       </Grid>
