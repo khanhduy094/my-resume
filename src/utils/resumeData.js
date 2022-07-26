@@ -108,9 +108,7 @@ const resumeData = {
         technology:
           "React-Hooks, React-Hook-Form, React-Router-Dom, Redux, Axios",
       },
-      projectFunc: {
-        
-      },
+      projectFunc: {},
     },
     {
       title: "Resume Online",
@@ -139,19 +137,15 @@ const resumeData = {
         link: "https://todo-app-redux-five.vercel.app/",
         member: 1,
         position: "Front End Developer",
-        technology:
-          "React-Hooks, Redux",
+        technology: "React-Hooks, Redux",
       },
       projectFunc: {
         addTodo: "Add new todo",
-        filters: "Filter todo by priority, status, search"
+        filters: "Filter todo by priority, status, search",
       },
     },
   ],
 };
-
-
-
 
 export const projectsData = [
   {
@@ -235,7 +229,8 @@ export const projectsData = [
       },
       {
         title: "Technology",
-        content: "React-Hooks, React-Router-Dom, Context, Styled-Component, Firebase",
+        content:
+          "React-Hooks, React-Router-Dom, Context, Styled-Component, Firebase",
       },
     ],
     projectFunc: [
@@ -262,7 +257,7 @@ export const projectsData = [
     slug: "resume",
     image1: "/img/resume-app.png",
     image2: "/img/resume-app2.png",
- 
+
     link: "https://my-resume-sand-nu.vercel.app/",
     projectInfo: [
       {
@@ -306,8 +301,8 @@ export const projectsData = [
     slug: "todo",
     image1: "/img/todo.png",
     image2: "/img/todo.png",
- 
-    link: "https://my-resume-sand-nu.vercel.app/",
+
+    link: "https://react-chatapp-neon.vercel.app/",
     projectInfo: [
       {
         title: "Project Name",
@@ -319,7 +314,7 @@ export const projectsData = [
       },
       {
         title: "Link demo",
-        content: "https://my-resume-sand-nu.vercel.app/",
+        content: "https://react-chatapp-neon.vercel.app/",
       },
       {
         title: "Member",
@@ -331,17 +326,13 @@ export const projectsData = [
       },
       {
         title: "Technology",
-        content: "HTML, CSS, React-Hook, Material-ui, React-Router-Dom",
+        content: "React-Hooks, Redux",
       },
     ],
     projectFunc: [
       {
-        title: "Change Theme",
-        content: "Change theme color in website use css variable",
-      },
-      {
-        title: "Reponsive",
-        content: "Responsive is suitable for all screen types",
+        addTodo: "Add new todo",
+        filters: "Filter todo by priority, status, search",
       },
     ],
   },
