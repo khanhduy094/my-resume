@@ -302,7 +302,7 @@ export const projectsData = [
     image1: "/img/todo.png",
     image2: "/img/todo.png",
 
-    link: "https://react-chatapp-neon.vercel.app/",
+    link: "https://todo-app-redux-five.vercel.app/",
     projectInfo: [
       {
         title: "Project Name",
@@ -314,7 +314,7 @@ export const projectsData = [
       },
       {
         title: "Link demo",
-        content: "https://react-chatapp-neon.vercel.app/",
+        content: "https://todo-app-redux-five.vercel.app/",
       },
       {
         title: "Member",
@@ -332,7 +332,7 @@ export const projectsData = [
     projectFunc: [
       {
         addTodo: "Add new todo",
-        filters: "Filter todo by priority, status, search",
+        filters: "Filter todo by priority, completed, search",
       },
     ],
   },
