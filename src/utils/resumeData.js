@@ -42,6 +42,11 @@ const resumeData = {
   ],
   educations: [
     {
+      title: "Su Pham University",
+      date: "9/2017 - 8/2020",
+      description: "",
+    },
+    {
       title: "CFD Circle",
       date: "9/2021 - 11/2021",
       description: "",
