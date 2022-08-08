@@ -28,7 +28,7 @@ function Home(props) {
                         {resumeData.hobbies.map((hob, index) => (
                             <Grid item xs={12} sm={6} md={3} key={index}>
                                 <div className="hobbies">
-                                    <Icon className="hobbies_icon">{hob.icon}</Icon>
+                                    {/* <Icon className="hobbies_icon">{hob.icon}</Icon> */}
                                     <Typography className="hobbies_title">{hob.title}</Typography>
                                     <Typography className="hobbies_des" variant="body2">{hob.des}</Typography>
                                 </div>
